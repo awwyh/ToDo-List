@@ -1,0 +1,48 @@
+.light {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --item-bg: #f9f9f9;
+    --border-color: #e0e0e0;
+    --primary: #4CAF50;
+    --danger: #ff4444;
+  }
+  
+  .dark {
+    --bg-color: #1a1a1a;
+    --text-color: #f5f5f5;
+    --item-bg: #2d2d2d;
+    --border-color: #444;
+    --primary: #2E7D32;
+    --danger: #ff6b6b;
+  }
+  
+  .blue {
+    --bg-color: #e3f2fd;
+    --text-color: #0d47a1;
+    --item-bg: #bbdefb;
+    --border-color: #90caf9;
+    --primary: #1976D2;
+    --danger: #ef5350;
+  }
+  
+  .app {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .todo-item {
+    background-color: var(--item-bg);
+    border: 1px solid var(--border-color);
+  }
+  
+  .todo-form button {
+    background-color: var(--primary);
+  }
+  
+  .delete-btn {
+    color: var(--danger);
+  }
+  
+  .navbar {
+    background-color: var(--item-bg);
+  }
